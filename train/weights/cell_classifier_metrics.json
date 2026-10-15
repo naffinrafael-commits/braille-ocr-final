@@ -1,0 +1,91 @@
+{
+  "acc_val_melhor": 0.9944,
+  "historico": [
+    {
+      "epoca": 1,
+      "acc_val": 0.9701,
+      "seg": 61.8
+    },
+    {
+      "epoca": 2,
+      "acc_val": 0.9803,
+      "seg": 54.4
+    },
+    {
+      "epoca": 3,
+      "acc_val": 0.9797,
+      "seg": 55.7
+    },
+    {
+      "epoca": 4,
+      "acc_val": 0.9829,
+      "seg": 55.5
+    },
+    {
+      "epoca": 5,
+      "acc_val": 0.9876,
+      "seg": 55.9
+    },
+    {
+      "epoca": 6,
+      "acc_val": 0.9864,
+      "seg": 55.4
+    },
+    {
+      "epoca": 7,
+      "acc_val": 0.9892,
+      "seg": 55.3
+    },
+    {
+      "epoca": 8,
+      "acc_val": 0.992,
+      "seg": 55.2
+    },
+    {
+      "epoca": 9,
+      "acc_val": 0.993,
+      "seg": 55.7
+    },
+    {
+      "epoca": 10,
+      "acc_val": 0.9914,
+      "seg": 55.7
+    },
+    {
+      "epoca": 11,
+      "acc_val": 0.9926,
+      "seg": 55.9
+    },
+    {
+      "epoca": 12,
+      "acc_val": 0.9944,
+      "seg": 55.2
+    },
+    {
+      "epoca": 13,
+      "acc_val": 0.9942,
+      "seg": 56.3
+    },
+    {
+      "epoca": 14,
+      "acc_val": 0.9936,
+      "seg": 56.0
+    },
+    {
+      "epoca": 15,
+      "acc_val": 0.994,
+      "seg": 55.8
+    }
+  ],
+  "classes": 61,
+  "acc_teste": 0.9628,
+  "acc_teste_por_fonte": {
+    "angelina": 0.889,
+    "classificacao": 1.0,
+    "kaggle": 0.963,
+    "multi": 1.0,
+    "roboflow": 0.9917,
+    "sintetico": 1.0,
+    "multi_recorte": 1.0
+  }
+}

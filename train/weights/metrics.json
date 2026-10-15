@@ -1,0 +1,327 @@
+{
+  "yolo11n_640": {
+    "yolo": {
+      "roboflow": {
+        "precisao": 0.8655,
+        "revocacao": 0.9318,
+        "hmean": 0.8974,
+        "map50": 0.9383,
+        "map50_95": 0.685
+      },
+      "angelina": {
+        "precisao": 0.8449,
+        "revocacao": 0.7596,
+        "hmean": 0.8,
+        "map50": 0.7895,
+        "map50_95": 0.1454
+      },
+      "sintetico": {
+        "precisao": 0.9952,
+        "revocacao": 0.9943,
+        "hmean": 0.9948,
+        "map50": 0.9948,
+        "map50_95": 0.9319
+      },
+      "mosaico": {
+        "precisao": 0.9928,
+        "revocacao": 0.9735,
+        "hmean": 0.9831,
+        "map50": 0.9928,
+        "map50_95": 0.9548
+      }
+    },
+    "ponta_a_ponta": {
+      "roboflow": {
+        "precisao_celula": 0.7228,
+        "revocacao_celula": 0.9761,
+        "hmean_celula": 0.8306,
+        "deteccao_revocacao": 0.9786,
+        "cer": 0.4077,
+        "fps": 58.54,
+        "imagens": 150
+      },
+      "angelina": {
+        "precisao_celula": 0.7904,
+        "revocacao_celula": 0.8037,
+        "hmean_celula": 0.797,
+        "deteccao_revocacao": 0.8198,
+        "cer": 0.1129,
+        "fps": 38.51,
+        "imagens": 150
+      },
+      "sintetico": {
+        "precisao_celula": 0.9983,
+        "revocacao_celula": 0.9994,
+        "hmean_celula": 0.9989,
+        "deteccao_revocacao": 0.9999,
+        "cer": 0.0166,
+        "fps": 24.11,
+        "imagens": 75
+      },
+      "mosaico": {
+        "precisao_celula": 0.9646,
+        "revocacao_celula": 0.9818,
+        "hmean_celula": 0.9731,
+        "deteccao_revocacao": 0.9951,
+        "cer": 0.0371,
+        "fps": 42.5,
+        "imagens": 75
+      }
+    },
+    "fps_cpu": 8.79
+  },
+  "yolo26n_640": {
+    "yolo": {
+      "roboflow": {
+        "precisao": 0.847,
+        "revocacao": 0.9101,
+        "hmean": 0.8774,
+        "map50": 0.9206,
+        "map50_95": 0.6582
+      },
+      "angelina": {
+        "precisao": 0.7884,
+        "revocacao": 0.7339,
+        "hmean": 0.7602,
+        "map50": 0.7517,
+        "map50_95": 0.1368
+      },
+      "sintetico": {
+        "precisao": 0.9947,
+        "revocacao": 0.9894,
+        "hmean": 0.9921,
+        "map50": 0.9932,
+        "map50_95": 0.9064
+      },
+      "mosaico": {
+        "precisao": 0.9909,
+        "revocacao": 0.9564,
+        "hmean": 0.9733,
+        "map50": 0.9881,
+        "map50_95": 0.9407
+      }
+    },
+    "ponta_a_ponta": {
+      "roboflow": {
+        "precisao_celula": 0.6723,
+        "revocacao_celula": 0.9724,
+        "hmean_celula": 0.7949,
+        "deteccao_revocacao": 0.9815,
+        "cer": 0.5025,
+        "fps": 56.26,
+        "imagens": 150
+      },
+      "angelina": {
+        "precisao_celula": 0.8307,
+        "revocacao_celula": 0.8314,
+        "hmean_celula": 0.8311,
+        "deteccao_revocacao": 0.8503,
+        "cer": 0.1315,
+        "fps": 38.6,
+        "imagens": 150
+      },
+      "sintetico": {
+        "precisao_celula": 0.9939,
+        "revocacao_celula": 0.9993,
+        "hmean_celula": 0.9966,
+        "deteccao_revocacao": 0.9997,
+        "cer": 0.0268,
+        "fps": 27.93,
+        "imagens": 75
+      },
+      "mosaico": {
+        "precisao_celula": 0.9599,
+        "revocacao_celula": 0.9709,
+        "hmean_celula": 0.9654,
+        "deteccao_revocacao": 0.9898,
+        "cer": 0.0476,
+        "fps": 44.59,
+        "imagens": 75
+      }
+    },
+    "fps_cpu": 8.91
+  },
+  "yolo11n_416": {
+    "yolo": {
+      "roboflow": {
+        "precisao": 0.8436,
+        "revocacao": 0.8506,
+        "hmean": 0.8471,
+        "map50": 0.9001,
+        "map50_95": 0.6371
+      },
+      "angelina": {
+        "precisao": 0.7698,
+        "revocacao": 0.6371,
+        "hmean": 0.6972,
+        "map50": 0.6823,
+        "map50_95": 0.1147
+      },
+      "sintetico": {
+        "precisao": 0.982,
+        "revocacao": 0.9719,
+        "hmean": 0.9769,
+        "map50": 0.9894,
+        "map50_95": 0.852
+      },
+      "mosaico": {
+        "precisao": 0.993,
+        "revocacao": 0.945,
+        "hmean": 0.9684,
+        "map50": 0.9845,
+        "map50_95": 0.8958
+      }
+    },
+    "ponta_a_ponta": {
+      "roboflow": {
+        "precisao_celula": 0.6799,
+        "revocacao_celula": 0.9481,
+        "hmean_celula": 0.7919,
+        "deteccao_revocacao": 0.9547,
+        "cer": 0.4765,
+        "fps": 58.18,
+        "imagens": 150
+      },
+      "angelina": {
+        "precisao_celula": 0.83,
+        "revocacao_celula": 0.8179,
+        "hmean_celula": 0.8239,
+        "deteccao_revocacao": 0.8482,
+        "cer": 0.1547,
+        "fps": 42.16,
+        "imagens": 150
+      },
+      "sintetico": {
+        "precisao_celula": 0.9872,
+        "revocacao_celula": 0.9945,
+        "hmean_celula": 0.9908,
+        "deteccao_revocacao": 0.9972,
+        "cer": 0.052,
+        "fps": 27.23,
+        "imagens": 75
+      },
+      "mosaico": {
+        "precisao_celula": 0.9491,
+        "revocacao_celula": 0.9594,
+        "hmean_celula": 0.9542,
+        "deteccao_revocacao": 0.9814,
+        "cer": 0.0662,
+        "fps": 48.87,
+        "imagens": 75
+      }
+    },
+    "fps_cpu": 17.8
+  },
+  "duas_etapas": {
+    "deteccao_celulas": {
+      "roboflow": {
+        "precisao": 0.8478,
+        "revocacao": 0.924,
+        "hmean": 0.8843,
+        "map50": 0.9372,
+        "map50_95": 0.6846
+      },
+      "angelina": {
+        "precisao": 0.9089,
+        "revocacao": 0.8947,
+        "hmean": 0.9018,
+        "map50": 0.9007,
+        "map50_95": 0.1661
+      },
+      "sintetico": {
+        "precisao": 1.0,
+        "revocacao": 1.0,
+        "hmean": 1.0,
+        "map50": 0.995,
+        "map50_95": 0.9307
+      },
+      "mosaico": {
+        "precisao": 0.9996,
+        "revocacao": 0.9996,
+        "hmean": 0.9996,
+        "map50": 0.995,
+        "map50_95": 0.964
+      }
+    },
+    "ponta_a_ponta": {
+      "roboflow": {
+        "precisao_celula": 0.6913,
+        "revocacao_celula": 0.9518,
+        "hmean_celula": 0.8009,
+        "deteccao_revocacao": 0.9654,
+        "cer": 0.465,
+        "fps": 25.29,
+        "imagens": 150
+      },
+      "angelina": {
+        "precisao_celula": 0.8545,
+        "revocacao_celula": 0.8646,
+        "hmean_celula": 0.8595,
+        "deteccao_revocacao": 0.8828,
+        "cer": 0.1189,
+        "fps": 14.78,
+        "imagens": 150
+      },
+      "sintetico": {
+        "precisao_celula": 0.9996,
+        "revocacao_celula": 0.9997,
+        "hmean_celula": 0.9996,
+        "deteccao_revocacao": 1.0,
+        "cer": 0.0162,
+        "fps": 13.73,
+        "imagens": 75
+      },
+      "mosaico": {
+        "precisao_celula": 0.9654,
+        "revocacao_celula": 0.966,
+        "hmean_celula": 0.9657,
+        "deteccao_revocacao": 1.0,
+        "cer": 0.0364,
+        "fps": 24.75,
+        "imagens": 75
+      }
+    },
+    "fps_cpu": 5.58
+  },
+  "grade_classica": {
+    "ponta_a_ponta": {
+      "roboflow": {
+        "precisao_celula": 0.0155,
+        "revocacao_celula": 0.0161,
+        "hmean_celula": 0.0158,
+        "deteccao_revocacao": 0.019,
+        "cer": 1.6674,
+        "fps": 1.97,
+        "imagens": 150
+      },
+      "angelina": {
+        "precisao_celula": 0.0,
+        "revocacao_celula": 0.0,
+        "hmean_celula": 0.0,
+        "deteccao_revocacao": 0.0,
+        "cer": 0.9959,
+        "fps": 0.97,
+        "imagens": 150
+      },
+      "sintetico": {
+        "precisao_celula": 0.9468,
+        "revocacao_celula": 0.9589,
+        "hmean_celula": 0.9528,
+        "deteccao_revocacao": 0.9874,
+        "cer": 0.0952,
+        "fps": 3.32,
+        "imagens": 75
+      },
+      "mosaico": {
+        "precisao_celula": 0.4365,
+        "revocacao_celula": 0.1659,
+        "hmean_celula": 0.2404,
+        "deteccao_revocacao": 0.1659,
+        "cer": 0.8453,
+        "fps": 2.2,
+        "imagens": 75
+      }
+    },
+    "fps_cpu": 1.8
+  }
+}

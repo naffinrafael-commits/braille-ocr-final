@@ -1,0 +1,6 @@
+.env
+__pycache__/
+*.pyc
+data/feedback/
+feedback_dataset.zip
+*.zip

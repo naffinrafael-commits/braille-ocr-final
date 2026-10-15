@@ -1,0 +1,7 @@
+{
+  "name": "Braille OCR Final",
+  "image": "mcr.microsoft.com/devcontainers/python:3.11",
+  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y libgl1 libglib2.0-0 && pip install -r requirements.txt",
+  "forwardPorts": [8501],
+  "portsAttributes": {"8501": {"label": "Streamlit", "onAutoForward": "openBrowser"}}
+}

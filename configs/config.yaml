@@ -1,0 +1,22 @@
+model:
+  yolo11: "train/weights/best.pt"
+  yolo26: "train/weights/yolo26.pt"
+  cell_detector: "train/weights/cell_detector.pt"
+  cell_classifier: "train/weights/cell_classifier.pt"
+  confidence: 0.25
+  iou: 0.45
+  img_size: 640
+  img_size_large: 1280
+  large_above: 1300
+  max_det: 2000
+
+auto:
+  grid_min_quality: 0.6
+  photo_order: ["yolo11", "yolo26", "duas_etapas"]
+
+feedback:
+  folder: "data/feedback"
+
+roboflow:
+  api_url: "https://detect.roboflow.com"
+  model_id: "braille-detection/2"
