@@ -55,4 +55,4 @@ docs/METODOLOGIA_DADOS.md      texto de metodologia para a monografia
 ## Equipe
 
 Flávio Vieira de Araujo · Rafael Naffin de Almeida · Renan Kaique Fidelis do Amaral · Ricardo Henrique Guimarães
-Orientadora: Profª. Micaella Garcia Fontes Gatti
+Orientadora: Profa. Esp. Meg Lima Andrade
