@@ -25,9 +25,8 @@ MODES = {
     "yolo11": "YOLO11n, 1 etapa (fotos)",
     "yolo26": "YOLO26n, 1 etapa (fotos)",
     "duas_etapas": "Detector + MobileNetV2, 2 etapas (fotos)",
-    "roboflow": "API Roboflow (comparação)",
 }
-METHOD = {"grade": "Grade", "yolo11": "YOLO11n", "yolo26": "YOLO26n", "duas_etapas": "2 etapas", "roboflow": "Roboflow"}
+METHOD = {"grade": "Grade", "yolo11": "YOLO11n", "yolo26": "YOLO26n", "duas_etapas": "2 etapas"}
 
 
 def show_image(img, caption=None):
@@ -75,7 +74,7 @@ st.caption("Reconhecimento óptico de Braille em língua portuguesa a partir de 
 
 with st.sidebar:
     st.header("Configurações")
-    modes = [m for m in MODES if m in ("auto", "grade", "roboflow") or available(m)]
+    modes = [m for m in MODES if m in ("auto", "grade") or available(m)]
     mode = st.selectbox("Modo de leitura", modes, format_func=lambda m: MODES[m])
     st.markdown("---")
     st.markdown("**Modelos encontrados**")

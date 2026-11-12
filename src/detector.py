@@ -1,10 +1,7 @@
-import base64
-import io
 import os
 from functools import lru_cache
 
 import numpy as np
-import requests
 import yaml
 from dotenv import load_dotenv
 from PIL import Image
@@ -147,21 +144,6 @@ def detect_two_stage(image):
     return _result(dets, "duas_etapas")
 
 
-def detect_roboflow(image):
-    c = cfg()
-    key = os.getenv("ROBOFLOW_API_KEY", "")
-    if not key:
-        raise ValueError("ROBOFLOW_API_KEY não definida no arquivo .env")
-    buf = io.BytesIO()
-    to_pil(image).save(buf, format="JPEG")
-    url = f"{c['roboflow']['api_url']}/{c['roboflow']['model_id']}?api_key={key}&name=image.jpg"
-    resp = requests.post(url, data=base64.b64encode(buf.getvalue()).decode(), headers={"Content-Type": "application/x-www-form-urlencoded"}, timeout=30)
-    resp.raise_for_status()
-    dets = [_det(p["x"] - p["width"] / 2, p["y"] - p["height"] / 2, p["x"] + p["width"] / 2, p["y"] + p["height"] / 2,
-                 p["confidence"], name_to_dots(p["class"]), "roboflow") for p in resp.json().get("predictions", [])]
-    return _result(dets, "roboflow")
-
-
 def detect_grid(image):
     res = grid_decode(np.asarray(to_pil(image)))
     for d in res["detections"]:
@@ -177,8 +159,6 @@ def detect(image, mode="auto"):
         return detect_yolo(image, mode)
     if mode == "duas_etapas":
         return detect_two_stage(image)
-    if mode == "roboflow":
-        return detect_roboflow(image)
     notes = []
     grid = None
     try:
